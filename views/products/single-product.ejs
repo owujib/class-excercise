@@ -1,0 +1,13 @@
+<%- include('../includes/navbar.ejs') %>
+<div class="container-fluid">
+  <h1 class="text-center text-secondary"><%= id %></h1>
+  <div class="container">
+    <img src="<%= product.product_image %>" class="card-img-top" alt="..." />
+    <div class="card-body">
+      <h5 class="card-title"><%= product.product_name %></h5>
+      <p class="card-text"><%= product.description %></p>
+    </div>
+  </div>
+</div>
+
+<%- include('../includes/footer.ejs') %>
